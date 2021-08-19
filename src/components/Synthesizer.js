@@ -3,7 +3,6 @@ import Container from '@material-ui/core/Container';
 import './Synthesizer.scss'
 import * as Tone from "tone";
 
-
 export default function Keyboard() {
     const synth = new Tone.Synth().toDestination();
 
